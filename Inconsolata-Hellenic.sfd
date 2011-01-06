@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1294331932
+ModificationTime: 1294334402
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 840 14 11
+WinInfo: 882 14 11
 Grid
 -1000 723 m 0
  2000 723 l 0
@@ -67,7 +67,7 @@ Grid
  406.5 917 l 25
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65544 365
+BeginChars: 65544 367
 
 StartChar: a
 Encoding: 97 97 0
@@ -7659,6 +7659,37 @@ SplineSet
  131 373 215 156 251 70 c 9
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: Omegatonos
+Encoding: 911 911 365
+Width: 600
+VWidth: 0
+HStem: 632 118<33.5 40.5>
+VStem: -34.5 185
+LayerCount: 2
+Fore
+Refer: 328 900 S 1 0 0 1 -231.5 -118 2
+Refer: 364 937 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: anoteleia
+Encoding: 903 903 366
+Width: 600
+Flags: W
+HStem: 407.952 133.048<235.674 337.277>
+VStem: 217.952 137.05<426.422 522.539>
+LayerCount: 2
+Fore
+SplineSet
+355.002 474.491 m 4
+ 355.002 438.007 324.552 407.952 286.44 407.952 c 4
+ 248.415 407.952 217.952 437.979 217.952 474.507 c 4
+ 217.952 510.961 248.383 541 286.462 541 c 4
+ 324.556 541 355.002 510.959 355.002 474.491 c 4
+EndSplineSet
+Validated: 524289
 EndChar
 EndChars
 EndSplineFont
