@@ -1,0 +1,33 @@
+Η Γραμματοσειρά
+---------------
+
+Το Inconsolata Hellenic είναι η εξελληνισμένη έκδοση της υπέροχης, ελεύθερης και δωρεάν γραμματοσειράς Inconsolata του Raph Levien. Στον σχεδιασμό της προσπάθησα να δανειστώ όσα περισσότερα μπορούσα από την αισθητική και τις επιρροές που συναντά κανείς στην αρχική γραμματοσειρά, όμως ταυτόχρονα προσπάθησα να αποκλίνω από τις συνήθεις σχεδιαστικές μεθοδολογίες που ακολουθούνται από έλληνες και ξένους σχεδιαστές ελληνικών γραμματοσειρών και που συχνά οδηγούν σε κατά πολύ κατώτερους εξελληνισμούς κορυφαίων λατινικών γραμματοσειρών.
+
+Η γραμματοσειρά καλύπτει προς το παρόν το μονοτονικό σύστημα και διατίθεται, όπως και η αρχική, υπό την άδεια Open Font License από το SIL (http://scripts.sil.org/OFL).
+
+Ελπίζω να βρείτε τη γραμματοσειρά αυτή χρήσιμη, ιδιαίτερα εσείς που χρειάζεστε ελληνικά στην καθημερινότητά σας, είτε αυτή συμπεριλαμβάνει την ανάπτυξη λογισμικού είτε έχει ανάγκη από monospace γραμματοσειρές.
+
+Δεν είμαι, σε καμία περίπτωση, επαγγελματίας του χώρου της τυπογραφίας και αυτό φαίνεται. Αυτή είναι μια πρώιμη έκδοση και ελπίζω πως στο μέλλον τόσο εγώ όσο και η ευρύτερη κοινότητα θα βοηθήσουν στην βελτίωσή της.
+
+Δημοσθένης Καπώνης (http://www.cosmix.org)
+Ιανουάριος 2011
+
+
+The Font
+--------
+
+Inconsolata Hellenic is the hellenisation of the wonderful, free and open monospace font Inconsolata by Raph Levien. In designing this font I tried to borrow as much as possible from the æsthetics and influences found in the original Roman version of Inconsolata, but I also tried to deviate from what I perceive as inferior Hellenisation methodologies of similar fonts that are --- sadly --- common with both Western and Greek font designers.
+
+This derivative font, augments the original Inconsolata with Hellenic glyphs, suitable for monotonic modern hellenic script. The derivative font is licensed, like the original, under the Open Font License by SIL. (http://scripts.sil.org/OFL).
+
+I hope that this font will prove to be useful to all those using Hellenic in their everyday programming, or other tasks and who have been left --- for so long --- without decent hellenic fonts.
+
+I am, by no means, a professional font designer, and this shows. This is an early version and I am hopeful that in the future both I and others in the community will make it better. 
+
+Hinting
+-------
+
+I have maintained Raph's decision of not hinting the glyphs, for a number of reasons, so if you are working in environments where fonts are heavily hinted (e.g. ClearType) you may not like this font (and you probably didn't like the original either).
+
+Dimosthenis Kaponis (http://www.cosmix.org)
+January 2011.
