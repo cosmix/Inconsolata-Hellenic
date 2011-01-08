@@ -5,7 +5,7 @@ FamilyName: Inconsolata
 Weight: Medium
 Copyright: Hellenisation of the Roman font, by Dimosthenis Kaponis, using FontForge. Hellenic glyphs Copyright 2010 Dimosthenis Kaponis. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nCreated by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien. Released under the SIL Open Font License, http://scripts.sil.org/OFL.
 UComments: "2005-8-26: Created." 
-Version: 1.1
+Version: 1.11
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1294413647
+ModificationTime: 1294514013
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -6453,7 +6453,7 @@ SplineSet
  122 464 116 453 116 453 c 4
  115 532 l 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: kappa
@@ -6932,7 +6932,7 @@ HStem: -0.533203 80.5332<395.817 452> 464 68<157.004 306>
 VStem: 306 82<88.3245 464>
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 -36.9915 -51.976 2
+Refer: 139 168 S 1 0 0 1 52.0085 -51.976 2
 Refer: 302 953 N 1 0 0 1 41 0 3
 Validated: 1
 EndChar
@@ -7160,11 +7160,11 @@ StartChar: iotadieresistonos
 Encoding: 912 912 344
 Width: 600
 VWidth: 0
-HStem: -0.533203 80.5332<354.817 411> 464 68<116.004 265> 666.005 118<258.013 265.013>
-VStem: 190.013 185 265 82<88.3245 464>
+HStem: -0.533203 80.5332<354.817 411> 464 68<116.004 265> 666.005 118<339.013 346.013>
+VStem: 265 82<88.3245 464> 271.013 185
 LayerCount: 2
 Fore
-Refer: 343 901 S 1 0 0 1 -69.9917 42.0236 2
+Refer: 343 901 S 1 0 0 1 11.0083 42.0236 2
 Refer: 302 953 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -7495,30 +7495,27 @@ EndChar
 StartChar: Phi
 Encoding: 934 934 358
 Width: 600
-Flags: W
+Flags: HMW
 HStem: 0 21G<271 344>
-VStem: 10 78<276.942 483.221> 267 81<0 53.6726 125 648> 515 75<275.461 490.642>
 LayerCount: 2
 Fore
 SplineSet
-263 717 m 0
- 274.333 719.333 288.111 720.111 301.444 720.111 c 0
- 328.111 720.111 353 717 353 717 c 1
- 466 693 590 580 590 378 c 0
- 590 184 448 73 344 49 c 1
- 344 0 l 1
- 271 0 l 5
- 271 48 l 5
- 159 72 10 197 10 378 c 0
- 10 560 138 690 263 717 c 0
-267 125 m 5
- 267 652 l 5
- 197 629 88 521 88 380 c 0
- 88 239 196 150 267 125 c 5
-348 648 m 1
- 348 125 l 1
- 413 150 515 239 515 379 c 0
- 515 528 412 621 348 648 c 1
+302.444 720.111 m 0
+ 465.457 720.111 590 572.394 590 378 c 0
+ 590 184 443 73 339 49 c 1
+ 339 0 l 1
+ 264 0 l 1
+ 264 48 l 1
+ 152 72 10 197 10 378 c 0
+ 10 575.778 162.037 720.111 302.444 720.111 c 0
+260 125 m 1
+ 260 649 l 1
+ 190 626 88 521 88 380 c 0
+ 88 239 189 150 260 125 c 1
+343 648 m 1
+ 343 125 l 1
+ 408 150 515 239 515 379 c 0
+ 515 528 407 621 343 648 c 1
 EndSplineSet
 Validated: 524289
 EndChar
