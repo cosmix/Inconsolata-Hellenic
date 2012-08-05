@@ -3,9 +3,9 @@ FontName: Inconsolata
 FullName: Inconsolata
 FamilyName: Inconsolata
 Weight: Medium
-Copyright: Created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nHellenisation of the Roman font, by Dimosthenis Kaponis, using FontForge. Hellenic glyphs Copyright 2010-2012 Dimosthenis Kaponis. Released under the SIL Open Font License, http://scripts.sil.org/OFL.
+Copyright: Original Roman version created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien. Hellenisation of the Roman font, by Dimosthenis Kaponis, using FontForge. Hellenic glyphs Copyright 2010-2012 Dimosthenis Kaponis. Released under the SIL Open Font License, http://scripts.sil.org/OFL.
 UComments: "2005-8-26: Created." 
-Version: 1.16
+Version: 1.17
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1329341276
+ModificationTime: 1344198004
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 21 12
+WinInfo: 840 15 10
 BeginPrivate: 6
 BlueValues 31 [-14 0 529 542 722 730 749 777]
 OtherBlues 11 [-201 -193]
@@ -6301,28 +6301,28 @@ EndChar
 StartChar: epsilon
 Encoding: 949 949 298
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-474.193 143.06 m 4
- 510.5 89.2803 l 4
- 455.55 32.6191 398.637 -0.0322266 315.23 -0.0322266 c 4
- 193.556 -0.0322266 84.6367 63.3506 84.6367 153.623 c 4
- 84.6367 211.244 112.112 267.903 176.875 278.467 c 4
- 125.85 292.873 87.5811 327.445 87.5811 378.344 c 4
- 87.5811 457.092 173.931 532.959 287.756 532.959 c 4
- 364.293 532.959 444.756 507.029 496.762 452.289 c 4
- 457.512 399.471 l 4
- 412.375 444.607 349.574 456.132 286.774 456.132 c 4
- 219.068 456.132 171.969 423.479 171.969 378.344 c 4
- 171.969 343.771 192.574 313.04 314.25 313.04 c 4
- 326.024 313.04 338.781 313.04 351.537 314 c 4
- 351.537 233.331 l 4
- 332.894 235.253 333.875 236.212 314.25 236.212 c 4
- 171.969 236.212 168.043 178.592 168.043 151.702 c 4
- 168.043 108.487 245.562 75.835 314.25 74.874 c 4
- 402.562 74.874 437.887 114.249 474.193 143.06 c 4
+473.193 143.06 m 4
+ 509.5 89.2803 l 4
+ 454.55 32.6191 397.637 -0.0322266 314.23 -0.0322266 c 4
+ 192.556 -0.0322266 83.6367 63.3506 83.6367 153.623 c 4
+ 83.6367 211.244 111.112 267.903 175.875 278.467 c 4
+ 124.85 292.873 86.5811 327.445 86.5811 378.344 c 4
+ 86.5811 457.092 172.931 532.959 286.756 532.959 c 4
+ 363.293 532.959 443.756 507.029 495.762 452.289 c 4
+ 456.512 399.471 l 4
+ 411.375 444.607 348.574 456.132 285.774 456.132 c 4
+ 218.068 456.132 170.969 423.479 170.969 378.344 c 4
+ 170.969 343.771 191.574 313.04 313.25 313.04 c 4
+ 325.024 313.04 337.781 313.04 350.537 314 c 4
+ 350.537 233.331 l 4
+ 331.894 235.253 332.875 236.212 313.25 236.212 c 4
+ 170.969 236.212 167.043 178.592 167.043 151.702 c 4
+ 167.043 108.487 244.562 75.835 313.25 74.874 c 4
+ 401.562 74.874 436.887 114.249 473.193 143.06 c 4
 EndSplineSet
 EndChar
 
@@ -6414,80 +6414,75 @@ EndChar
 StartChar: iota
 Encoding: 953 953 302
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-115 532 m 4
- 349 532 l 4
- 347 140 l 6
- 347 83 369 80 411 80 c 5
- 412 0 l 5
- 398 0 384 -1 371 -1 c 4
- 311 -1 265 11 265 141 c 5
- 264 150 264 165 264 180 c 4
- 264 211 265 246 265 246 c 5
- 265 464 l 5
- 135 464 l 4
- 122 464 116 453 116 453 c 4
- 115 532 l 4
+115 532 m 0
+ 349 532 l 0
+ 349 532 349 292.88 349 140 c 16
+ 349 83 370 80 412 80 c 1
+ 412 0 l 1
+ 398 0 384 -1 371 -1 c 0
+ 311 -1 265 11 265 141 c 1
+ 264 150 264 165 264 180 c 0
+ 264 211 265 246 265 246 c 1
+ 265 464 l 1
+ 135 464 l 0
+ 122 464 116 453 116 453 c 0
+ 115 532 l 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: kappa
 Encoding: 954 954 303
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-87 529 m 0
- 182 529 l 0
- 182 528 182 528 182 527 c 0
- 182 520 178 516 175 512 c 0
- 171 507 171 503 171 499 c 0
- 171 286 l 0
- 436 532 l 0
- 457 527 485 526 505 526 c 0
- 535 526 l 0
- 310 316 l 0
- 565 -1 l 0
- 562 -1 560 -1 557 -1 c 0
- 502 -1 465 -1 465 -1 c 0
- 249 265 l 0
- 171 200 l 0
- 171 -1 l 0
- 87 -1 l 0
- 87 529 l 0
+61 529 m 4
+ 156 529 l 4
+ 156 528 156 528 156 527 c 4
+ 156 520 152 516 149 512 c 4
+ 145 507 145 503 145 499 c 4
+ 145 286 l 4
+ 410 532 l 4
+ 431 527 459 526 479 526 c 4
+ 509 526 l 4
+ 284 316 l 4
+ 539 -1 l 4
+ 536 -1 534 -1 531 -1 c 4
+ 439 -1 l 4
+ 223 265 l 4
+ 145 200 l 4
+ 145 -1 l 4
+ 61 -1 l 4
+ 61 529 l 4
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: lambda
 Encoding: 955 955 304
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-277 489 m 1
- 273 523 278 582 258 616 c 0
- 232 661 193 672 161 672 c 0
+287 508 m 1
+ 280.04 597.092 231.908 672 161 672 c 0
  131 672 106 662 104 662 c 0
  102 744 l 1
  121 744 137 745 152 745 c 0
  252 745 291 727 338 642 c 0
  342 634 344 652 443 243 c 1
- 490 94 504 83 536 83 c 0
- 538 83 541 83 543 83 c 0
- 547 83 547 19 547 -3 c 1
+ 491.96 87.7857 500.132 83 545 83 c 0
+ 549 83 547 19 547 -3 c 1
  394 -3 406 81 323 389 c 1
  115 0 l 1
  24 0 l 1
- 277 489 l 1
+ 287 508 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: mu
@@ -6550,7 +6545,7 @@ EndChar
 StartChar: xi
 Encoding: 958 958 307
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -6560,9 +6555,9 @@ SplineSet
  194 429 170 470 170 508 c 0
  170 571 235 627 280 648 c 1
  276 647 256 647 229 647 c 0
- 201 647 164 647 124 647 c 1
- 100 646 97 633 94 633 c 0
- 95 725 l 0
+ 201 647 184 647 144 647 c 1
+ 120 646 118 633 115 633 c 0
+ 115 725 l 0
  507 725 l 0
  507 645 l 0
  507 645 430 645 425 645 c 1
@@ -6574,14 +6569,13 @@ SplineSet
  373 342 367 342 360 342 c 0
  267 342 187 309 187 206 c 0
  187 204 187 201 187 199 c 1
- 190 65 395 117 478 30 c 4
+ 190 65 395 117 478 30 c 0
  489 19 498 4 498 -9 c 0
  498 -49 461 -90 450 -140 c 9
  360 -141 l 17
  377 -102 410 -60 410 -37 c 0
  410 -35 410 -33 409 -31 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: omicron
@@ -6662,54 +6656,53 @@ EndChar
 StartChar: sigma
 Encoding: 963 963 311
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-525 262 m 4
- 525 87 412 -14 287 -14 c 4
- 154 -14 39 100 39 261 c 4
- 39 422 151 538 283 541 c 6
- 284 541 l 4
- 286 541 287 541 289 541 c 6
- 562 541 l 5
- 562 468 l 5
- 454 468 l 5
- 497 421 525 352 525 262 c 4
-283 470 m 5
- 202 470 127 398 127 268 c 4
- 127 137 204 58 288 58 c 4
- 365 58 441 126 441 259 c 4
- 441 379 388 461 283 470 c 5
+525 262 m 0
+ 525 87 412 -14 287 -14 c 0
+ 154 -14 39 100 39 261 c 0
+ 39 422 151 538 283 541 c 2
+ 284 541 l 0
+ 286 541 287 541 289 541 c 2
+ 574 541 l 1
+ 569 519.5 l 0
+ 569 468 l 1
+ 454 468 l 1
+ 497 421 525 352 525 262 c 0
+283 470 m 1
+ 202 470 127 398 127 268 c 0
+ 127 137 204 58 288 58 c 0
+ 365 58 441 126 441 259 c 0
+ 441 379 388 461 283 470 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: tau
 Encoding: 964 964 312
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-99 532 m 5
- 543 532 l 4
- 543 463 l 4
- 334 463 l 4
- 332 140 l 4
- 332 87 395 76 441 76 c 4
- 467 76 488 80 488 80 c 4
- 489 7 l 4
- 489 7 463 2 429 2 c 4
- 358 2 250 22 250 141 c 5
- 249 150 249 164 249 180 c 4
- 249 211 250 246 250 246 c 5
- 250 464 l 5
- 209 464 168 465 135 465 c 4
- 99 465 71 464 59 457 c 5
- 99 532 l 5
+99 541 m 5
+ 543 541 l 4
+ 543 463 l 0
+ 334 463 l 0
+ 332 140 l 0
+ 332 87 395 76 441 76 c 0
+ 467 76 488 80 488 80 c 0
+ 489 7 l 0
+ 489 7 463 2 429 2 c 0
+ 358 2 250 22 250 141 c 1
+ 249 150 249 164 249 180 c 0
+ 249 211 250 246 250 246 c 1
+ 250 464 l 1
+ 209 464 168 465 135 465 c 0
+ 99 465 71 464 59 457 c 1
+ 99 541 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: upsilon
@@ -6783,21 +6776,19 @@ EndChar
 StartChar: Eta
 Encoding: 919 919 318
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 12 72 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 12 72 S 1 0 0 1 -1 0 2
 EndChar
 
 StartChar: Iota
 Encoding: 921 921 319
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 4 73 S 1 0 0 1 0 0 2
-Validated: 1
+Refer: 4 73 S 1 0 0 1 10 0 2
 EndChar
 
 StartChar: Mu
@@ -6873,23 +6864,21 @@ EndChar
 StartChar: Kappa
 Encoding: 922 922 325
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 84 75 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 84 75 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: iotadieresis
 Encoding: 970 970 326
 Width: 600
 VWidth: 0
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 139 168 S 1 0 0 1 52 -52 2
 Refer: 302 953 N 1 0 0 1 41 0 3
-Validated: 1
 EndChar
 
 StartChar: upsilondieresis
@@ -6989,7 +6978,6 @@ LayerCount: 2
 Fore
 Refer: 328 900 S 1 0 0 1 68 -27 2
 Refer: 302 953 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Alphatonos
@@ -7025,7 +7013,6 @@ LayerCount: 2
 Fore
 Refer: 328 900 S 1 0 0 1 -321 -27 2
 Refer: 318 919 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Iotatonos
@@ -7037,7 +7024,6 @@ LayerCount: 2
 Fore
 Refer: 328 900 S 1 0 0 1 -280 -27 2
 Refer: 319 921 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Omicrontonos
@@ -7077,12 +7063,11 @@ StartChar: Iotadieresis
 Encoding: 938 938 342
 Width: 600
 VWidth: 0
-Flags: M
+Flags: HM
 LayerCount: 2
 Fore
 Refer: 139 168 N 1 0 0 1 -10 137 2
 Refer: 319 921 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: dieresistonos
@@ -7106,7 +7091,6 @@ LayerCount: 2
 Fore
 Refer: 343 901 S 1 0 0 1 11 42 2
 Refer: 302 953 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: upsilondieresistonos
@@ -7182,62 +7166,60 @@ EndChar
 StartChar: psi
 Encoding: 968 968 348
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-88 529 m 2
- 167 529 l 1
- 167 234 l 1
- 167 229 l 2
- 167 178 169 84 259 66 c 1
- 259 617 l 1
- 338 646 l 1
- 338 73 l 1
- 391 96 430 159 430 236 c 2
- 430 529 l 1
- 509 529 l 1
- 509 238 l 2
- 509 170 484 111 455 74 c 0
- 415 23 380 0 338 -9 c 1
- 338 -189 l 5
- 259 -189 l 5
- 259 -12 l 1
- 197 -3 136 34 108 95 c 0
- 87 140 87 188 87 234 c 0
- 88 470 88 529 88 529 c 2
+90 529 m 6
+ 169 529 l 5
+ 169 234 l 5
+ 169 229 l 6
+ 169 178 171 84 261 66 c 5
+ 261 617 l 5
+ 340 646 l 5
+ 340 73 l 5
+ 393 96 432 159 432 236 c 6
+ 432 529 l 5
+ 511 529 l 5
+ 511 238 l 6
+ 511 170 486 111 457 74 c 4
+ 417 23 382 0 340 -9 c 5
+ 340 -189 l 5
+ 261 -189 l 5
+ 261 -12 l 5
+ 199 -3 138 34 110 95 c 4
+ 89 140 89 188 89 234 c 4
+ 90 470 90 529 90 529 c 6
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: phi
 Encoding: 966 966 349
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-266 592 m 1
- 341 604 l 1
- 341 537 l 1
- 445 518 543 424 543 262 c 0
- 543 107 448 10 341 -10 c 1
- 341 -192 l 5
- 266 -192 l 5
- 266 -11 l 1
- 150 9 57 116 57 261 c 0
- 57 407 150 515 266 537 c 1
- 266 592 l 1
-266 60 m 1
- 266 469 l 1
- 200 450 140 378 140 268 c 0
- 140 159 199 81 266 60 c 1
-341 466 m 1
- 341 61 l 1
- 402 81 463 150 463 259 c 0
- 463 375 401 444 341 466 c 1
+261 592 m 1
+ 345 604 l 5
+ 345 537 l 5
+ 449 518 543 424 543 262 c 0
+ 543 107 452 10 345 -10 c 5
+ 345 -192 l 5
+ 261 -192 l 1
+ 261 -11 l 1
+ 145 9 57 116 57 261 c 0
+ 57 407 145 515 261 537 c 1
+ 261 592 l 1
+261 60 m 1
+ 261 469 l 1
+ 195 450 140 378 140 268 c 0
+ 140 159 194 81 261 60 c 1
+345 466 m 5
+ 345 61 l 5
+ 406 81 463 150 463 259 c 0
+ 463 375 405 444 345 466 c 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: omega
@@ -7290,22 +7272,19 @@ EndChar
 StartChar: Lambda
 Encoding: 923 923 352
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-406 211 m 0
- 286 549 l 0
- 177 211 l 0
- 107 -1 l 0
+286 549 m 1
+ 226.738 365.234 167.225 181.397 107 -1 c 1
  27 -1 l 0
  282 735 l 0
- 291 735 l 0
+ 291 735 l 4
  570 0 l 0
- 486 0 l 0
- 406 211 l 0
+ 486 0 l 1
+ 417.635 180.311 351.46 364.621 286 549 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Delta
@@ -7488,11 +7467,11 @@ EndChar
 StartChar: Sigma
 Encoding: 931 931 362
 Width: 600
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-255 354 m 1
+251 354 m 5
  87 665 l 0
  86 722 l 0
  532 722 l 0
@@ -7506,10 +7485,9 @@ SplineSet
  546 -21 l 0
  68 -21 l 0
  68 27 l 0
- 255 354 l 1
+ 251 354 l 5
 338 354 m 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Psi
