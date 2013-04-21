@@ -5,7 +5,7 @@ FamilyName: Inconsolata
 Weight: Medium
 Copyright: Original Roman version created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien. Hellenisation of the Roman font, by Dimosthenis Kaponis, using FontForge. Hellenic glyphs Copyright 2010-2012 Dimosthenis Kaponis. Released under the SIL Open Font License, http://scripts.sil.org/OFL.
 UComments: "2005-8-26: Created." 
-Version: 1.18
+Version: 1.19
 ItalicAngle: 0
 UnderlinePosition: -101
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1366584944
+ModificationTime: 1366585756
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -5326,7 +5326,7 @@ SplineSet
  328 457 274 487 230 487 c 0
 EndSplineSet
 Refer: 56 8217 N 0.8 0 0 0.8 314 191 2
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: eogonek
@@ -6395,27 +6395,26 @@ EndChar
 StartChar: theta
 Encoding: 952 952 301
 Width: 613
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
-297 792 m 0
- 445 792 523 600 523 391 c 0
+297 768 m 4
+ 445 768 523 600 523 391 c 0
  523 223 502 2 300 1 c 0
  298 1 l 0
- 115 1 89 205 89 387 c 4
- 89 610 156 792 297 792 c 0
+ 115 1 89 205 89 387 c 0
+ 89 610 156 768 297 768 c 4
 439 428 m 1
- 439 595 372 716 298 716 c 0
- 231 716 174 604 173 427 c 5
+ 439 595 372 692 298 692 c 4
+ 231 692 174 604 173 427 c 1
  225 427 377 428 439 428 c 1
 439 352 m 1
- 172 352 l 21
+ 172 352 l 17
  174 218 194 83 300 83 c 0
  417 83 439 212 439 343 c 0
  439 346 439 349 439 352 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: iota
@@ -6729,7 +6728,7 @@ SplineSet
  376 65 440 142 440 242 c 2
  440 542 l 1
  526 542 l 25
- 526 426 526 244 526 244 c 0
+ 526 244 l 0
  526 174 500 113 470 75 c 4
  413 2 357 -14 294 -14 c 0
  223 -14 138 24 105 97 c 0
@@ -6738,7 +6737,7 @@ SplineSet
  85 477 l 0
  85 477 53 481 33 483 c 25
  47 542 l 25
- 62 542 85 542 85 542 c 0
+ 85 542 l 0
 EndSplineSet
 Validated: 1
 EndChar
@@ -7209,7 +7208,7 @@ SplineSet
  93 139 92 185 92 228 c 0
  92 232 92 236 92 240 c 0
  92 321 92 381 92 426 c 0
- 92 515 92 542 92 542 c 2
+ 92 542 l 2
 EndSplineSet
 Validated: 1
 EndChar
